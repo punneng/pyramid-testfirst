@@ -1,0 +1,5 @@
+      [paste.app_factory]
+      main = todolist:main
+      [console_scripts]
+      initialize_todolist_db = todolist.scripts.initializedb:main
+      

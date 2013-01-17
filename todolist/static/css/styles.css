@@ -1,0 +1,98 @@
+body{
+    background-color: #CCC;
+}
+
+#container{
+    margin: 0 auto;
+    width: 600px;
+    background-color: #FFF;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+
+#header{
+    margin-top: 20px;
+    height: 35px;
+    padding: 5px;
+    padding-top: 20px;
+    background-color: #4FACBA;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+       -moz-border-top-left-radius: 10px;
+       -moz-border-top-rightradius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+}
+
+#content{
+    padding: 10px;
+    background-color: #FFF;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+       -moz-border-bottom-left-radius: 10px;
+       -moz-border-bottom-rightradius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+}
+
+#main-tabs{
+
+}
+
+.nav-tabs > li, .nav-pills > li {
+    width:193px;
+    text-align: center;
+}
+
+
+/* form
+------------------------------------------------------- */
+#todo-form{
+    padding-bottom: 10px;
+}
+
+.element-line{
+    padding-bottom: 10px;
+}
+
+.input-fit-large {
+  width: 460px;
+}
+
+.btn.add{
+    width: 90%;
+}
+
+input.text-field {
+  padding-right: 14px;
+  padding-right: 4px \9;
+  padding-left: 14px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+  margin-bottom: 0;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.todo-list div.show-grid:hover{
+    background-color: #EEE;
+}
+
+.todo-list div.show-grid{
+    border-bottom: solid 1px #EEE;  
+    padding-bottom: 5px; 
+}
+.todo-list div.last{
+    border: none;
+}
+
+.todo-list div.row-fluid [class*="span"] {
+    padding-top:5px;
+    min-height:20px;
+}
